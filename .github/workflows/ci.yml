@@ -1,5 +1,5 @@
 # version 1.0
-name: CI/CD - Build and push to DockerHub
+name: CI - Build and push to DockerHub
 on:
   push:
     tags:

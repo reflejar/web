@@ -4,28 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
-    <title>Reflejar - Sitio en construcción</title>
-    <style>
-        body {
-            font-family: 'Ubuntu', sans-serif;
-            background-color: #470f4c;
-        }
-        #main {
-            text-align: center;
-            padding-top: 25vh;
-            font-weight: bold;
-            color: white;
-        }
-    </style>
+    <link rel="icon" type="image/jpg" href="images/favicon.ico"/>
+
+    <title>Reflej.ar - Contamos historias a través del análisis de datos</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2DJGB316GL"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2DJGB316GL');
+    </script>    
+
 </head>
 <body>
-    <section id="main">
-        <img src="logo.png" height="200px" alt="Logo de reflejar">
-        <hr>
-        <h2>Estamos trabajando para mejorar el sitio.</h2>
-    </section>
+
+
+    <header id="header">
+        <div class="container__header">
+            <div class="logo">
+                <img src="images/logo.jpeg" alt="Logo de reflejar">
+            </div>
+        </div>
+    </header>
+
+    <div class="container_all" id="container__all">
+        <div class="cover">
+
+            <!--INICIO WAVE-->
+
+                <div class="bg_color"></div>
+                <div class="wave w1"></div>
+                <div class="wave w2"></div>
+
+            <!--FINAL WAVE-->
+
+            <div class="container__cover">
+                <div class="container__info">
+                    <h1>Sitio en construcción</h1>
+                    <h2>Hola!</h2>
+                    <p>
+                        Estamos construyendo historias con análisis de datos. <br />
+                        Pronto podrás verlas. <br />
+                        Si nos queres contactar no dudes en escribirnos.
+                    </p>
+                    <a href="mailto:hola@reflej.ar">hola@reflej.ar</a>
+                </div>
+                <div class="container__vector">
+                    <img src="images/logo_fondo_violeta.png" alt="Logo grande de reflejar en movimiento">
+                </div>
+            </div>
+        </div>
+
+</div>
 </body>
 </html>

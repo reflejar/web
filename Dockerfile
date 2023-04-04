@@ -5,9 +5,9 @@ ARG VERSION
 LABEL created $BUILD_DATE
 LABEL version $VERSION
 LABEL revision $REVISION
-LABEL maintainer "marianovaldez92@gmail.com"
+LABEL maintainer "marianovaldez92@protonmail.com"
 LABEL url "https://reflej.ar"
-LABEL source "git@github.com:AdminSmartLab/as-react.git"
+LABEL source "git@github.com:reflejar/web.git"
 LABEL vendor "Reflejar"
 LABEL title "Reflejar web"
 LABEL description "Pagina web de Reflejar"

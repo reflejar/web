@@ -12,5 +12,5 @@ LABEL vendor "Reflejar"
 LABEL title "Reflejar web"
 LABEL description "Pagina web de Reflejar"
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY ./web /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 EXPOSE 80

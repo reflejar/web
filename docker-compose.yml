@@ -4,6 +4,6 @@ services:
   web:
     build:
       context: .
-    image: anopa/reflejar:latest
+    image: ghcr.io/reflejar/web:latest
     ports:
       - 3000:80

@@ -1,18 +1,23 @@
-.hero {
+#hero {
     display: flex;
     align-items: center;
     /* justify-content: center; */
     height: 50vh; /* Ajusta la altura según tus necesidades */
 }
-  
-.hero h1 {
-    font-size: 7em; /* Ajusta el tamaño de fuente según tus necesidades */
+
+#que-hacemos {
+    background: #FFFFFF;
 }
 
-.navbar-end {
-    position: absolute;
-    right: 10rem!important;
+
+@media (min-width: 1200px) {
+    .navbar-end {
+        position: absolute;
+        right: 10rem!important;
+    }
   }
+
+
 
 
 .push-end {
@@ -44,3 +49,22 @@
     font-size: 2.5rem;
 }
 
+   
+.proyectos .proyectos-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.proyectos .proyectos-item .proyectos-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+}
+.proyectos .proyectos-item .proyectos-item-caption:hover {
+    opacity: 1;
+}

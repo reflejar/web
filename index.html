@@ -5,18 +5,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Reflejar</title>
-        <meta name="description" content="" />
         <meta name="author" content="" />
+        <meta name="description" content="reflejar es una organización especializada en ciencia de datos, analisis de datos, geolocalización y creación de herramientas. Ecología y Feminismos" />
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- animate.css from cdn js -->
-
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/bootstrap.css" rel="stylesheet" />
         <link href="css/custom.css" rel="stylesheet" />
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.bundle.min.js"></script>
     </head>
     
     <body id="page-top" class="bg-dark">
@@ -27,12 +28,12 @@
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center animate__animated animate__fadeIn animate__delay-1s" id="navbarResponsive">
+                <div class="collapse navbar-collapse justify-content-center animate__animated animate__fadeIn " id="navbarResponsive">
                     <ul class="navbar-nav">
                         <li class="nav-item mx-4"><a class="nav-link" href="#que-hacemos">Qué hacemos</a></li>
                         <li class="nav-item mx-4"><a class="nav-link" href="#proyectos">Proyectos</a></li>
                         <li class="nav-item mx-4"><a class="nav-link" href="#equipo">Equipo a bordo</a></li>
-                        <li class="nav-item mx-4"><a class="nav-link" href="#alianzas">Alianzas</a></li>
+                        <!-- <li class="nav-item mx-4"><a class="nav-link" href="#alianzas">Alianzas</a></li> -->
                         <li class="nav-item navbar-end"><a class="nav-link btn btn-outline-light" href="#contacto">Contactanos</a></li>
                     </ul>
                 </div>
@@ -42,67 +43,67 @@
         
         <!-- <div class="min-vh-100 bg-dark animate__animated animate__fadeOutUp"></div> -->
         <div class="animate__animated animate__fadeInDown animate__fast">
-            <section class="hero min-vh-100 bg-info text-dark">
+            <section class="min-vh-100 bg-info text-dark" id="hero">
                 <div class="container animate__animated animate__pulse d-flex flex-column">
                     <div class="row">
-                        <div class="col-lg-9 mt-5">
+                        <div class="col-lg-10 mt-5">
                             <div class="col-lg-4">
                                 <p class="text-font-lora">Para visibilizar una problemática hay que encontrar un dato y para encontrarlo hay que sacarle el barro.</p>
                             </div>
-                            <div class="col-lg-9">
-                                <h1 class="text-font-titillium text-uppercase">Tu caja de herramientas</h1>
+                            <div class="col-lg-12">
+                                <h1 class="text-font-titillium text-uppercase display-1">Tu nueva <br> caja de herramientas</h1>
                             </div>
             
                             <div class="col-lg-6 mt-3">
                                 <p class="text-font-lora">Una experiencia real, que pide decodificarse.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 animate__animated animate__pulse animate__delay-2s">
+                        <div class="col-lg-2 animate__animated animate__pulse animate__delay-2s d-none d-lg-block">
                             <img src="assets/hero-trama.svg" alt="Imagen de Hero">
                         </div>
                     </div>
                 </div>
             </section>
     
-            <section class="min-vh-50 bg-light text-dark animate__animated animate__fadeInUp animate__fast animate__delay-1s" id="que-hacemos">
+            <section class="min-vh-50 text-dark animate__animated animate__fadeInUp animate__fast animate__delay-1s" id="que-hacemos">
                 <div class="container py-5">
                     <h1 class="mt-5 text-font-lora text-center">¿Qué hacemos?</h1>
                     <div class="row">
                         <div class="col-lg-2">
                             <h3 class="text-marca my-5 text-font-lora">soluciones</h3>
                             <h3 class="text-marca my-5 text-font-lora">hacer colectivo</h3>
-                            <h3 class="text-marca my-5 text-font-lora">codigo abierto</h3>
+                            <h3 class="text-marca my-5 text-font-lora">democratizar conocimiento</h3>
                         </div>
                         <div class="col-lg-8 mt-3 ">
-                            <p class="my-3">
-                                <b>Reflejar</b> nace como una pregunta y crece a partir de una respuesta clara y contundente. La pregunta: <b>¿Es posible construir mejores políticas públicas a través de los datos?</b> La respuesta: Sí.
+                            <p class="my-3 lh-lg">
+                                <b>Reflejar</b> nace como una pregunta y crece a partir de una respuesta clara y contundente. La pregunta: <b>¿Es posible incidir políticamente a través de los datos?</b> La respuesta: Sí.
                             </p>
-                            <p class="my-3">
-                                <b>Reflejar</b> es una institución especializada en la visualización de datos. Nos esforzamos por diseñar mapas, gráficos o tablas, que aporten soluciones pragmáticas a diversos problemas sociales.
+                            <p class="my-3 lh-lg">
+                                Somos una institución especializada en el análisis y <b>visualización de datos.</b> Nos esforzamos por diseñar plataformas que aporten con mapas, gráficos o tablas, soluciones pragmáticas a diversos problemas sociales.
                             </p>
-                            <p class="my-3">
-                                <b>Fabricamos</b> soluciones mediante el análisis de datos y comunicamos resultados que habilitan la toma de decisiones informadas.
+                            <p class="my-3 lh-lg">
+                                <b>Fabricamos soluciones mediante el análisis de datos y comunicamos resultados que habilitan la toma de decisiones informadas.</b>
                             </p>
-                            <p class="my-3">
-                                Buscamos asistir a instituciones públicas y privadas, organizaciones del tercer sector y a la comunidad en general. Apostamos por <b>la construcción de un saber y un hacer colectivo</b>, poniendo énfasis en la democratización del conocimiento.
+                            <p class="my-3 lh-lg">
+                                Buscamos asistir a instituciones públicas y privadas, organizaciones del tercer sector y a la comunidad en general. Apostamos por la construcción de un saber y un hacer colectivo, poniendo énfasis en <b>la democratización del conocimiento.</b>
                             </p>
-                            <p class="my-3">
-                                Somos un <b>proyecto de código abierto que busca ser comprensible, atractivo e interpretable.</b> Convertimos cada experiencia en una caja de herramientas.
+                            <p class="my-3 lh-lg">
+                                Convertimos cada experiencia en una nueva caja de herramientas, que busca ser comprensible atractiva e interpretable. 
                             </p>
-                            <p class="my-3">
-                                Nos enorgullece brindar una <b>base metodológica sólida y confiable.</b> Incorporamos una mirada estratégica, <b>convirtiendo datos en información</b> que provoque innovación institucional, participación social, transparencia y gestión profesional.
+                            <p class="my-3 lh-lg">
+                                Nos enorgullece brindar una <b>base metodológica sólida y confiable.</b> Incorporamos una mirada estratégica, convirtiendo datos en información que provoque reflexión, participación social y transparencia.
                             </p>
                         </div>
-                        <div class="col-lg-2">
-                            <img src="assets/img/reflejo.png" alt="">
+                        <div class="col-lg-2 d-none d-lg-block">
+                            <img src="assets/img/reflejo.svg" alt="">
                         </div>        
                     </div>  
 
-                    <div class="row my-5 text-center">
-                        <div class="col-lg-6 offset-3">
-                            <h1 class="mt-5 text-font-lora">Nuestra visión</h1>
-                            <p class="my-5">
-                                En <b>Reflejar</b> nos posicionamos de forma clara: la ciencia es fundamental para transformar la realidad. Por eso nos apasiona ser una caja de herramientas, una red de profesionales y un espejo sobre el cual proyectar una nueva mirada. <b>¿Cómo puedo cambiar lo que no conozco?</b> Ahí radica nuestra visión. Investigar, conversar, dibujar, mapear, graficar, trazar, diagramar, diseñar y <b>devolver información útil.</b>
+                    <div class="row text-center">
+                        <div class="col-lg-8 mx-auto">
+                            <h1 class="text-font-lora">Nuestra visión</h1>
+                            <p class="my-5 lh-lg">
+                                En <b>Reflejar</b> nos posicionamos de forma clara: el análisis de datos es fundamental para transformar realidades. Por eso nos apasiona <b>ser una caja de herramientas, una red de profesionales y un espejo sobre el cual proyectar una nueva mirada</b>. ¿Cómo puedo cambiar lo que no conozco? Ahí radica nuestra visión. Investigar, conversar, dibujar, mapear, graficar, trazar, diagramar, diseñar y devolver información útil. 
                             </p>  
                         </div>
                     </div>   
@@ -113,18 +114,18 @@
                         </div>                             
                         <div class="col-lg-6">
                             <h1 class="mt-5 text-font-lora">Nuestra misión</h1>
-                            <p class="my-5">
-                                Habilitar el uso estratégico de datos. <br />
-                                Potenciar otras instituciones mediante sinergia. <br />
+                            <p class="my-5 lh-lg">
+                                Habilitar el <b>uso estratégico</b> de datos. <br />
+                                Potenciar otras instituciones generando <b>sinergia</b>. <br />
                                 Desarrollar miradas y soluciones sobre problemas actuales. <br />
                                 Democratizar el acceso al conocimiento. <br />
-                                Visibilizar problemas y ponerlos en agenda.
+                                Visibilizar problemas y <b>ponerlos en agenda</b>.
                             </p>  
                             <h1 class="mt-5 text-font-lora">Nuestros valores</h1>
                             <div class="row">
                                 <div class="col-4 mt-5">
                                     01 <span class="push-end">-</span><br>
-                                    Empoderamiento.
+                                    Construcción colectiva.
                                 </div>
                                 <div class="col-4 mt-5">
                                     02 <span class="push-end">-</span><br>
@@ -138,7 +139,7 @@
                             <div class="row">
                                 <div class="col-4 mt-5">
                                     04 <span class="push-end">-</span><br>
-                                    Compromiso con el bienestar social.
+                                    Compromiso con la transformación social. 
                                 </div>
                                 <div class="col-4 mt-5">
                                     05 <span class="push-end">-</span><br>
@@ -153,21 +154,54 @@
                     </div>                       
                     
                     <div class="row">
-                        <div class="col-lg-12 position-relative px-15">
-                            <span class="text-start text-font-info text-dark display-1 position-absolute z-2">(No soy sólo un dato)</span>
-                            <span class="text-end text-font-titillium text-lila display-1 w-100">Bonito</span>
+                        <div class="col-lg-11 position-relative px-15">
+                            <span class="text-start text-font-info text-dark display-3 position-absolute z-2">(No soy sólo un dato)</span>
+                            <span class="text-end text-font-titillium text-lila display-3 w-100">Bonito</span>
                         </div>
                     </div>
                 
                 </div>
             </section>
     
-            <section class="min-vh-50 bg-info text-dark animate__animated animate__fadeInDown animate__fast animate__delay-1s" id="proyectos">
+            <section class="min-vh-50 bg-info text-dark animate__animated animate__fadeInDown animate__fast animate__delay-1s proyectos" id="proyectos">
                 <div class="container py-5">
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-lg-3">
                             <h2 class="mt-5 text-font-lora">Proyectos</h2>
                             <a class="btn btn-outline-dark" href="#contacto">Tengo un proyecto</a>
+                        </div>
+                        <div class="col-lg-9">
+
+                            <div class="row mt-5">
+
+                                <div class="col-6 col-lg-4">
+                                    <div class="proyectos-item mx-auto">
+                                        <div class="proyectos-item-caption d-flex align-items-center justify-content-center h-100 w-100" style="background-color: #DB6D3C">
+                                            <div class="proyectos-item-caption-content text-center text-dark p-2">
+                                                <small class="text-font-lora">PIS :// “Pesticidas Introducidos Silenciosamente” es una iniciativa creada por Democracia en Red. Es una plataforma web que engloba 4 herramientas para reducir el impacto de los agrotóxicos en nuestros cuerpos.</small>
+                                                <a class="btn btn-outline-dark mt-5" href="https://pis.org.ar" target="_blank">Ver proyecto</a>                                            
+                                            </div>
+                                        </div>
+                                        <img src="assets/img/proyectos/pis.png" class="img-fluid" alt="Pesticidas introducidos silenciosamente">
+                                    </div>                                
+                                </div>
+                                
+
+
+                                <div class="col-6 col-lg-4">
+                                    <div class="proyectos-item mx-auto">
+                                        <div class="proyectos-item-caption d-flex align-items-center justify-content-center h-100 w-100" style="background-color: #CFFF92">
+                                            <div class="proyectos-item-caption-content text-center text-dark p-2">
+                                                <small class="text-font-lora">:// Librería en Python que tiene como objetivo facilitar el procesamiento de las Encuesta Permanente de Hogares (EPH) publicadas por INDEC de forma periódica.</small>
+                                                <a class="btn btn-outline-dark mt-5" href="https://linktr.ee/pyeph" target="_blank">Ver proyecto</a>                                            
+                                            </div>
+                                        </div>
+                                        <img src="assets/img/proyectos/pyeph.png" class="img-fluid" alt="Pyeph">
+                                    </div>                                
+                                </div>
+
+
+                            </div>
 
                         </div>
                     </div>
@@ -188,7 +222,7 @@
                                 </div>
                                 <div class="card-body position-relative px-5">
                                     <div class="profile-image">
-                                        <img src="assets/img/agu.png" alt="Imágen de Agustin Collomb">
+                                        <img src="assets/img/equipo/agu.png" alt="Imágen de Agustin Collomb">
                                     </div>
                                     <h1 class="card-title text-font-titillium text-fluor position-absolute top-15 start-50">Agustín Collomb</h1>
                                     <hr class="border border-fluor border-2">
@@ -208,7 +242,7 @@
                                 </div>
                                 <div class="card-body position-relative px-5">
                                     <div class="profile-image">
-                                        <img src="assets/img/pili.png" alt="Imágen de Pilar Salaberría">
+                                        <img src="assets/img/equipo/pili.png" alt="Imágen de Pilar Salaberría">
                                     </div>
                                     <h1 class="card-title text-font-titillium text-white position-absolute top-15 start-50">Pilar Salaberría</h1>
                                     <hr class="border border-fluor border-2">
@@ -229,7 +263,7 @@
                                 </div>
                                 <div class="card-body position-relative px-5">
                                     <div class="profile-image">
-                                        <img src="assets/img/simon.png" alt="Imágen de Simón Ayala">
+                                        <img src="assets/img/equipo/simon.png" alt="Imágen de Simón Ayala">
                                     </div>
                                     <h1 class="card-title text-font-titillium text-fluor position-absolute top-15 start-50">Simón Ayala</h1>
                                     <hr class="border border-fluor border-2">
@@ -252,7 +286,7 @@
                                 </div>
                                 <div class="card-body position-relative px-5">
                                     <div class="profile-image">
-                                        <img src="assets/img/pano.png" alt="Imágen de Pano Valdez">
+                                        <img src="assets/img/equipo/pano.png" alt="Imágen de Pano Valdez">
                                     </div>
                                     <h1 class="card-title text-font-titillium text-white position-absolute top-15 start-50">Pano Valdez</h1>
                                     <hr class="border border-fluor border-2">
@@ -272,7 +306,7 @@
                                 </div>
                                 <div class="card-body position-relative px-5">
                                     <div class="profile-image">
-                                        <img src="assets/img/caro.png" alt="Imágen de Caro Trogliero">
+                                        <img src="assets/img/equipo/caro.png" alt="Imágen de Caro Trogliero">
                                     </div>
                                     <h1 class="card-title text-font-titillium text-fluor position-absolute top-15 start-50">Caro Trogliero</h1>
                                     <hr class="border border-fluor border-2">
@@ -292,7 +326,7 @@
                                 </div>
                                 <div class="card-body position-relative px-5">
                                     <div class="profile-image">
-                                        <img src="assets/img/mati.png" alt="Imágen de Matías Cena Trebucq">
+                                        <img src="assets/img/equipo/mati.png" alt="Imágen de Matías Cena Trebucq">
                                     </div>
                                     <h1 class="card-title text-font-titillium text-white position-absolute top-15 start-50">Matías Cena Trebucq</h1>
                                     <hr class="border border-fluor border-2">
@@ -320,21 +354,57 @@
                         </div>
                         <div class="col-lg-6 text-font-lora">
                             <div class="card">
-                                <div class="card-body text-dark">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus hic dolor atque voluptas ducimus obcaecati non iure cum consectetur porro ad ullam, illo, commodi laudantium esse incidunt nisi temporibus ipsam!
+                                <div class="card-body text-dark py-3 px-5">
+                                    <div class="position-relative">
+                                        <span class="text-start position-absolute">¿Coordinar una reunión?</span>
+                                        <span class="text-end w-100"><a href="#" class="text-decoration-none">Dale</a></span>
+                                        <hr>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span class="text-start position-absolute">¿En tus manos hay un proyecto?</span>
+                                        <span class="text-end w-100"><a href="#" class="text-decoration-none">Compartí</a></span>
+                                        <hr>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span class="text-start position-absolute">¿Querés aprender sobre ciencia de datos?</span>
+                                        <span class="text-end w-100"><a href="#" class="text-decoration-none">Adelante</a></span>
+                                        <hr>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span class="text-start position-absolute">¿P.I.S? shh</span>
+                                        <span class="text-end w-100"><a href="#" class="text-decoration-none">Escribí acá</a></span>
+                                        <hr>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span class="text-start position-absolute">¿Encuenta permanente de hogares?</span>
+                                        <span class="text-end w-100"><a href="#" class="text-decoration-none">Consultá</a></span>
+                                        <hr>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span class="text-start position-absolute">Todas tus preguntas más ñoñas</span>
+                                        <span class="text-end w-100"><a href="#" class="text-decoration-none">Van aquí</a></span>
+                                        <hr>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span class="text-start position-absolute">¿Querés una caja de herramientas?</span>
+                                        <span class="text-end w-100"><a href="#" class="text-decoration-none">Pedila</a></span>
+                                        <hr>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section> 
-            <section class="min-vh-50 bg-white text-dark animate__animated animate__fadeInDown animate__fast animate__delay-1s" id="alianzas">
+
+
+            <!-- <section class="min-vh-50 bg-white text-dark animate__animated animate__fadeInDown animate__fast animate__delay-1s" id="alianzas">
                 <div class="container py-5">
                     <h1 class="text-font-lora mt-5">Alianzas</h1>
                     <p class="text-font-lora text-lila">Frase Piolarda</p>
                 </div>
-            </section>        
-                   
+            </section>         -->
+                 
             <footer class="min-vh-25 bg-dark text-white animate__animated animate__fadeInDown animate__fast animate__delay-1s" id="footer">
                 <div class="container py-5">
                     <hr class="border border-2">
@@ -352,19 +422,6 @@
                 </div>
             </footer>
         </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
-        <script>
-          new Vue({
-            el: '#app',
-            data: {},
-            methods: {},
-            mounted() {
-              console.log('Vue.js is mounted successfully!');
-            }
-          });
-        </script>
-
 
     </body>
 </html>

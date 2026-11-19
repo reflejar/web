@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:900");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #A69FC7;
+    color: #242039;
+    font-family: Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.construccion {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.construccion h1 {
+    margin: 0;
+    font-family: "Titillium Web", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 900;
+    font-size: clamp(2.5rem, 6.5vw, 6rem);
+    line-height: 1.1;
+}
+
+.construccion p {
+    margin: clamp(2.5rem, 6vw, 5rem) 0 3rem;
+    font-size: 1.25rem;
+}
+
+.construccion img {
+    display: block;
+    width: min(249px, 70vw);
+    height: auto;
+}
